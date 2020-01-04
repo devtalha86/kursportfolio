@@ -1139,6 +1139,8 @@ ul.product-tab li.active:after {
 .course-filter-expandable h2{
   cursor: pointer;
 }
+
+
 /***Media Query Start******************************/
 
 /***Extra small devices (portrait phones, less than 576px)***/
@@ -1158,6 +1160,47 @@ ul.product-tab li.active:after {
 
   .best-course-pic-text{
     padding-top: 0.3rem;
+  }
+
+  .best-course-pic img{
+    /* height: 100px; */
+    object-fit: cover;
+  }
+
+  .course-slots{
+    font-size: 12px;
+  }
+
+  .course-slots ul{
+    margin: 0;
+    padding: 0;
+  }
+
+  .course-slots ul li{
+    list-style-type: none;
+    margin: 5px 0;
+    padding: 0;
+  }
+
+  .course-slots ul li span{
+    vertical-align: text-bottom;
+  }
+
+  .kurseP-col-right{
+    padding-right: .50rem!important;
+  }
+
+  .kurseP-col-left{
+    padding-left: .50rem!important;
+  }
+
+  .course-sidebar-widget .latest-title{
+    font-size: .9rem;
+    line-height: 1.5rem;
+  }
+
+  .notification{
+    font-size: .85rem;
   }
 
 }
@@ -1181,6 +1224,8 @@ ul.product-tab li.active:after {
     padding-top: 0.3rem;
   }
 
+
+
 }
 
 /***Medium devices (tablets, less than 992px)***/
@@ -1201,7 +1246,7 @@ ul.product-tab li.active:after {
 
 /***Media Query End******************************/
 
-@media (min-width: 576px) {  }
+
 
 @media (min-width: 768px) { 
 
@@ -1226,6 +1271,13 @@ ul.product-tab li.active:after {
   }
 
 }
+
+@media only screen and (min-width: 576px)  {
+  .container {
+    max-width: 630px;
+  }
+}
+
 
 /*** Bootstrap Carousel ***************************************************************************************************/
 .carousel .carousel-indicators {
