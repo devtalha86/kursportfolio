@@ -1140,6 +1140,18 @@ ul.product-tab li.active:after {
   cursor: pointer;
 }
 
+.course-slots ul{
+  margin: 0;
+  padding: 0;
+}
+
+.course-slots ul li{
+  list-style-type: none;
+  margin: 5px 0;
+  padding: 0;
+}
+
+
 
 /***Media Query Start******************************/
 
@@ -1195,12 +1207,12 @@ ul.product-tab li.active:after {
   }
 
   .course-sidebar-widget .latest-title{
-    font-size: .9rem;
-    line-height: 1.5rem;
+    font-size: .8rem;
+    line-height: 1.3rem;
   }
 
   .notification{
-    font-size: .85rem;
+    font-size: .8rem;
   }
 
 }
